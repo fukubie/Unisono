@@ -20,13 +20,8 @@ The goal is to help students meet peers from other majors, understand how differ
 - **Duolingo-style path** — Vertical journey with labels to the left of circles and step-by-step progression.
 - **Interactive demo flow** — “Try demo” walks through: sign up → interests → feed → project roadmap (with unlockable levels) → campus interaction and a fake 32-day streak.
 
-## How to run
-
-1. Open `index.html` in a browser (double-click or use “Open with”).
-2. Or serve the folder with any static server, e.g.:
-   - `npx serve .`
-   - `python -m http.server 8000`
-3. Use **Try demo** / **Get started** to go through the flow; use the menu icon on small screens for navigation.
+## Try
+https://fukubie.github.io/Unisono/
 
 ## Tech
 
@@ -38,3 +33,4 @@ The goal is to help students meet peers from other majors, understand how differ
 ## License
 
 Static front-end demo only. © 2026 Unisono.
+
