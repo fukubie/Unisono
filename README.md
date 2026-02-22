@@ -2,6 +2,8 @@
 
 A static front-end demo for a **student interaction app** that connects students from different majors to collaborate on real industry-level problems.
 
+<img src="/AnimationWeb" alt="Alt text" width="50%" height="auto">
+
 ## Purpose
 
 Unisono is a concept app (CGI consulting group idea) designed to:
@@ -33,4 +35,5 @@ https://fukubie.github.io/Unisono/
 ## License
 
 Static front-end demo only. © 2026 Unisono.
+
 
