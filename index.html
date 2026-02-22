@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisono — Connect. Collaborate. Solve.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bb-style">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="base-header">
+        <div class="header-inner">
+            <button type="button" class="menu-toggle" aria-label="Open main navigation" aria-expanded="false">
+                <span class="menu-icon"></span>
+            </button>
+            <h1 class="page-title">Unisono</h1>
+            <div class="header-tools">
+                <span class="filter-label">Explore</span>
+                <a href="#journey" class="header-link">Your path</a>
+                <a href="#try-demo" class="btn-primary">Try demo</a>
+            </div>
+        </div>
+    </header>
+
+    <aside class="side-nav" aria-hidden="true">
+        <div class="side-nav-header">
+            <span class="side-nav-logo">Unisono</span>
+            <button type="button" class="side-nav-close" aria-label="Close menu">&times;</button>
+        </div>
+        <nav class="side-nav-list" aria-label="Main">
+            <a href="#hero">Home</a>
+            <a href="#how-it-works">How it works</a>
+            <a href="#journey">Your journey</a>
+            <a href="#try-demo">Try demo</a>
+            <a href="#outcomes">Outcomes</a>
+        </nav>
+    </aside>
+    <div class="side-nav-backdrop" aria-hidden="true"></div>
+
+    <main id="main-content" class="main-content">
+        <section id="hero" class="hero">
+            <div class="hero-banner" style="background-image: url('https://images.unsplash.com/photo-1570616969692-54d6ba3d0397?w=600&auto=format&fit=crop&q=60');"></div>
+            <div class="hero-content">
+                <h2 class="hero-title">Connect across majors. Solve real industry problems.</h2>
+                <p class="hero-subtitle">Use your campus profile, pick your interests, and team up with students from different disciplines to tackle challenges from industry and campus partners.</p>
+                <a href="#try-demo" class="btn-primary btn-hero">Get started</a>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section section-cards">
+            <h2 class="section-title">How it works</h2>
+            <div class="course-card-grid">
+                <article class="element-card course-element-card">
+                    <div class="course-banner" style="background-image: url('https://plus.unsplash.com/premium_photo-1682284353484-4e16001c58eb?w=600&auto=format&fit=crop&q=60');"></div>
+                    <div class="element-details">
+                        <span class="course-id">Step 1</span>
+                        <h3 class="course-title">Sign up with Blackboard</h3>
+                        <p class="course-desc">Your Blackboard profile is your identity. Attach your curriculum guide so teams know your strengths.</p>
+                        <span class="course-status">Profile + curriculum</span>
+                    </div>
+                </article>
+                <article class="element-card course-element-card">
+                    <div class="course-banner" style="background-image: url('https://images.unsplash.com/photo-1570616969692-54d6ba3d0397?w=600&auto=format&fit=crop&q=60');"></div>
+                    <div class="element-details">
+                        <span class="course-id">Step 2</span>
+                        <h3 class="course-title">Industry connection</h3>
+                        <p class="course-desc">Real problems from campus company partners and industry news—uploaded so you work on what matters.</p>
+                        <span class="course-status">Real-world challenges</span>
+                    </div>
+                </article>
+                <article class="element-card course-element-card">
+                    <div class="course-banner" style="background-image: url('https://plus.unsplash.com/premium_photo-1661947152568-34caef3df159?w=600&auto=format&fit=crop&q=60');"></div>
+                    <div class="element-details">
+                        <span class="course-id">Step 3</span>
+                        <h3 class="course-title">Pick your interests</h3>
+                        <p class="course-desc">Sustainability, software evolution, product development, and more. Get a feed that fits and meet students who share your interests.</p>
+                        <span class="course-status">Feed + matching</span>
+                    </div>
+                </article>
+                <article class="element-card course-element-card">
+                    <div class="course-banner" style="background-image: url('https://images.unsplash.com/photo-1758270704025-0e1a1793e1ca?w=600&auto=format&fit=crop&q=60');"></div>
+                    <div class="element-details">
+                        <span class="course-id">Step 4</span>
+                        <h3 class="course-title">Team roadmap</h3>
+                        <p class="course-desc">Each level unlocks when every team member uploads their part. Work through research → draft → presentation together.</p>
+                        <span class="course-status">Unlock by collaboration</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="journey" class="section section-path">
+            <h2 class="section-title">Your journey</h2>
+            <p class="section-lead">A Duolingo-style path: complete each step to move forward.</p>
+            <div class="path-container">
+                <div class="path-track">
+                    <div class="path-node done" data-step="1">
+                        <span class="path-node-label">Sign up</span>
+                        <div class="path-node-circle"><span class="path-node-icon">✓</span></div>
+                    </div>
+                    <div class="path-connector"></div>
+                    <div class="path-node done" data-step="2">
+                        <span class="path-node-label">Interests</span>
+                        <div class="path-node-circle"><span class="path-node-icon">✓</span></div>
+                    </div>
+                    <div class="path-connector"></div>
+                    <div class="path-node current" data-step="3">
+                        <span class="path-node-label">Feed</span>
+                        <div class="path-node-circle"><span class="path-node-icon">3</span></div>
+                    </div>
+                    <div class="path-connector locked"></div>
+                    <div class="path-node locked" data-step="4">
+                        <span class="path-node-label">Project</span>
+                        <div class="path-node-circle"><span class="path-node-icon">4</span></div>
+                    </div>
+                    <div class="path-connector locked"></div>
+                    <div class="path-node locked" data-step="5">
+                        <span class="path-node-label">Complete</span>
+                        <div class="path-node-circle"><span class="path-node-icon">5</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="try-demo" class="section section-demo">
+            <h2 class="section-title">Try the flow</h2>
+            <p class="section-lead">Walk through sign up → interests → feed → project (static demo).</p>
+
+            <div id="demo-signup" class="demo-card demo-visible">
+                <div class="demo-card-banner"></div>
+                <div class="demo-card-body">
+                    <h3>Sign up</h3>
+                    <p>Use your Blackboard profile and attach your curriculum guide.</p>
+                    <div class="demo-form">
+                        <input type="text" placeholder="Your name" aria-label="Name">
+                        <input type="text" placeholder="Major" aria-label="Major">
+                        <button type="button" class="btn-primary" onclick="goToInterests()">Continue</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="demo-interests" class="demo-card demo-hidden">
+                <div class="demo-card-banner demo-banner-green"></div>
+                <div class="demo-card-body">
+                    <h3>Select your interests</h3>
+                    <p>This connects you to a feed and to students with similar interests.</p>
+                    <div class="demo-interests-list">
+                        <label class="interest-chip"><input type="checkbox" value="Sustainability"> Sustainability</label>
+                        <label class="interest-chip"><input type="checkbox" value="Software"> Computer software evolution</label>
+                        <label class="interest-chip"><input type="checkbox" value="Product"> Product development</label>
+                        <label class="interest-chip"><input type="checkbox" value="AI"> AI & data</label>
+                    </div>
+                    <button type="button" class="btn-primary" onclick="goToFeed()">See my feed</button>
+                </div>
+            </div>
+
+            <div id="demo-feed" class="demo-card demo-hidden">
+                <div class="demo-card-banner demo-banner-purple"></div>
+                <div class="demo-card-body">
+                    <h3>Your industry problem feed</h3>
+                    <p>Based on your interests — real challenges from campus and industry.</p>
+                    <ul id="problemList" class="problem-list"></ul>
+                    <button type="button" class="btn-primary" onclick="joinProject()">Join a project</button>
+                </div>
+            </div>
+
+            <div id="demo-project" class="demo-card demo-hidden">
+                <div class="demo-card-banner demo-banner-orange"></div>
+                <div class="demo-card-body">
+                    <h3>Project roadmap</h3>
+                    <p>Each level unlocks when every team member uploads their portion.</p>
+                    <div class="timeline-roadmap">
+                        <div class="roadmap-node unlocked">
+                            <div class="roadmap-node-circle"><span>1</span></div>
+                            <div class="roadmap-node-body">
+                                <h4>Level 1: Research</h4>
+                                <input type="file" aria-label="Upload research">
+                                <button type="button" class="btn-small" onclick="unlockLevel(2)">Upload</button>
+                            </div>
+                        </div>
+                        <div class="roadmap-connector"></div>
+                        <div class="roadmap-node locked" id="level2">
+                            <div class="roadmap-node-circle"><span>2</span></div>
+                            <div class="roadmap-node-body">
+                                <h4>Level 2: Solution draft</h4>
+                                <input type="file" aria-label="Upload draft" disabled>
+                                <button type="button" class="btn-small" onclick="unlockLevel(3)" disabled>Upload</button>
+                            </div>
+                        </div>
+                        <div class="roadmap-connector locked"></div>
+                        <div class="roadmap-node locked" id="level3">
+                            <div class="roadmap-node-circle"><span>3</span></div>
+                            <div class="roadmap-node-body">
+                                <h4>Level 3: Final presentation</h4>
+                                <input type="file" aria-label="Upload presentation" disabled>
+                                <button type="button" class="btn-small" onclick="finishProject()" disabled>Finish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="demo-extras" class="demo-card demo-hidden">
+                <div class="demo-card-banner demo-banner-navy"></div>
+                <div class="demo-card-body">
+                    <div class="streak-status">
+                        <p class="streak-badge">🔥 <strong>32 day streak</strong></p>
+                        <p class="streak-message">You completed your project upload — great work! Keep it up.</p>
+                    </div>
+                    <h3>Campus interaction</h3>
+                    <p>Stay engaged with streaks, video uploads, campus map, and QR code hunts.</p>
+                    <ul class="extras-list">
+                        <li><span class="extras-icon">🔥</span> Streaks</li>
+                        <li><span class="extras-icon">🎥</span> Video upload</li>
+                        <li><span class="extras-icon">🗺️</span> Campus Connect map</li>
+                        <li><span class="extras-icon">📍</span> QR code hunts</li>
+                    </ul>
+                    <button type="button" class="btn-primary" onclick="resetDemo()">Start over</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="outcomes" class="section section-outcomes">
+            <h2 class="section-title">What you gain</h2>
+            <div class="outcomes-grid">
+                <div class="outcome-card">
+                    <div class="outcome-icon">👥</div>
+                    <h3>Cross-major collaboration</h3>
+                    <p>Work with students from different majors and see how each discipline approaches problems.</p>
+                </div>
+                <div class="outcome-card">
+                    <div class="outcome-icon">🎯</div>
+                    <h3>Industry-ready skills</h3>
+                    <p>Tackle real industry-level problems and build a portfolio that employers value.</p>
+                </div>
+                <div class="outcome-card">
+                    <div class="outcome-icon">🏫</div>
+                    <h3>Campus exploration</h3>
+                    <p>Use the campus map and QR hunts to discover resources and spaces.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Unisono. Static front-end demo.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
